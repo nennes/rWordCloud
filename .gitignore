@@ -11,4 +11,6 @@ $RECYCLE.BIN/
 # RStudio Files
 .Rproj.user
 *.Rproj
+.RData
+.Rhistory
 

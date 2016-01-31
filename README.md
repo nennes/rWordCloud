@@ -9,6 +9,6 @@ Nor do they really distinguish between the important and the rest, no matter wha
 
 Alas, the solution has been found! Word Clouds!
 
-R makes it very straigntforward to make them, straight out of your CSV!
+R makes it very straightforward to make them, right out of your CSV!
 
 ![](https://github.com/nennes/rWordCloud/blob/master/tags.png)
