@@ -1,4 +1,4 @@
-# rWordCloud
+# R WordCloud
 ## Ever wanted a nice Word Cloud out of a list of tags?
 
 
