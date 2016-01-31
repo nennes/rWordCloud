@@ -11,4 +11,4 @@ Alas, the solution has been found! Word Clouds!
 
 R makes it very straigntforward to make them, straight out of your CSV!
 
-![](https://raw.githubusercontent.com/nennes/rWordCloud/master/skills.png)
+![](https://github.com/nennes/rWordCloud/blob/master/tags.png)
