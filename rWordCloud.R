@@ -5,19 +5,18 @@ pal <- brewer.pal(8,"Dark2")
 pal <- pal[-(1:2)]
 
 # CSV Filename
-csv_fname <- "skills.csv"
+csv_fname <- "tags.csv"
 
 # Read the CSV into a data frame
-skills <- read.csv(csv_fname, stringsAsFactors=F)
+tags <- read.csv(csv_fname, stringsAsFactors=F)
 
 # Set the columns names to keyword, size
-names(skills) = c("keyword", "size")
+names(tags) = c("keyword", "importance")
 
 # Save to a PNG file with a transparent background
-png("skills.png", width=400,height=400, units="px",bg = "transparent")
+png("tags.png", width=400,height=400, units="px",bg = "transparent")
 
 # Produce the Wordcloud
-wordcloud(skills$keyword, freq=skills$size, colors=pal)
+wordcloud(tags$keyword, freq=tags$importance, colors=pal)
 
 dev.off()
-
