@@ -10,13 +10,14 @@ csv_fname <- "tags.csv"
 # Read the CSV into a data frame
 tags <- read.csv(csv_fname, stringsAsFactors=F)
 
-# Set the columns names to keyword, size
+# Set the columns names to keyword, importance
 names(tags) = c("keyword", "importance")
 
 # Save to a PNG file with a transparent background
-png("tags.png", width=400,height=400, units="px",bg = "transparent")
+png("tags.png", width=400,height=400, units="px", bg = "transparent")
 
 # Produce the Wordcloud
 wordcloud(tags$keyword, freq=tags$importance, colors=pal)
 
+# Close the file
 dev.off()
